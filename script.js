@@ -107,3 +107,15 @@ const savedTheme = localStorage.getItem('theme')
 if(savedTheme){
     document.body.classList.add(savedTheme)
 }
+
+
+// Register Service Worker
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+        .then(() => {
+            console.log('Service Worker Registered');
+        })
+        .catch(error => {
+            console.error('Service Worker Registration Failed:', error);
+        });
+}

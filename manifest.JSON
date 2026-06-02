@@ -1,0 +1,19 @@
+{
+  "name": "Today - Todo List",
+  "short_name": "Today",
+  "description": "A simple and clean todo list app with multiple themes.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f0e8",
+  "theme_color": "#f5f0e8",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
